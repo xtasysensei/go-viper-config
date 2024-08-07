@@ -23,7 +23,7 @@ func main() {
 
 ```
 
-And a toml file should be present in the root directory or you ca nmodify the `loadcfg.go` to specify another directory
+And a toml file should be present in the root directory or you can modify the `loadcfg.go` to specify another directory
 
 ```toml
 [database]
@@ -31,8 +31,11 @@ And a toml file should be present in the root directory or you ca nmodify the `l
         hostname = "localhost"
         port = 5432
         username = "postgres"
-        password = ""
+        password = "1234"
 
 [server]
     port = 8080
 ```
+
+## License
+Use as you please
